@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "885955321773",
+    "project_id": "ecommadmin-2c953",
+    "storage_bucket": "ecommadmin-2c953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885955321773:android:cc366d1b80657028a24b24",
+        "android_client_info": {
+          "package_name": "com.app.d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtbXlcun6QajZtTD2Nd3rW1pzPPY5Lg0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "885955321773-2b1jgb4bmkils8bu4u3tih0dgmd04evf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.carttobuy.ecomarceapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885955321773:android:8211424b30503fd0a24b24",
+        "android_client_info": {
+          "package_name": "com.app.d.ecom_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtbXlcun6QajZtTD2Nd3rW1pzPPY5Lg0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "885955321773-2b1jgb4bmkils8bu4u3tih0dgmd04evf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.carttobuy.ecomarceapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885955321773:android:06a9fd86ec41ab13a24b24",
+        "android_client_info": {
+          "package_name": "com.app.ecommadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtbXlcun6QajZtTD2Nd3rW1pzPPY5Lg0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "885955321773-2b1jgb4bmkils8bu4u3tih0dgmd04evf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.carttobuy.ecomarceapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885955321773:android:d7a966ac66688736a24b24",
+        "android_client_info": {
+          "package_name": "com.d.googlejsonremovetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtbXlcun6QajZtTD2Nd3rW1pzPPY5Lg0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885955321773-ih6mpb6u82teem8l5u56chbbr8oqq0g1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "885955321773-2b1jgb4bmkils8bu4u3tih0dgmd04evf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.carttobuy.ecomarceapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
