@@ -6,16 +6,25 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
+import com.d.googlejsonremovetest.Utils.decrypt
+import com.d.googlejsonremovetest.Utils.encrypt
 import com.google.android.gms.tasks.Task
 import com.google.firebase.FirebaseApp
 import com.google.firebase.FirebaseOptions
 import com.google.firebase.messaging.FirebaseMessaging
+import java.security.SecureRandom
+import javax.crypto.KeyGenerator
+import javax.crypto.SecretKey
 
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var btnLogReport:Button
 
+    lateinit var keyGenerator: KeyGenerator
+    lateinit var secretKey: SecretKey
+    var IV = ByteArray(16)
+    lateinit var random: SecureRandom
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,6 +62,39 @@ class MainActivity : AppCompatActivity() {
             var msg = findViewById<EditText>(R.id.edMsg).text.toString()
             var dd = System.currentTimeMillis()
             throw RuntimeException(" $msg - Test Crash - $dd")
+        }
+
+
+
+        // AES 256 Test section
+
+        try {
+            keyGenerator = KeyGenerator.getInstance("AES")
+            keyGenerator.init(256)
+            secretKey = keyGenerator.generateKey()
+        } catch (e: java.lang.Exception) {
+            e.printStackTrace()
+        }
+        random =  SecureRandom();
+        random.nextBytes(IV)
+
+        /// Test
+        var testText = "Welcome Test"
+        var encryptMsg: ByteArray? = null
+        try {
+            encryptMsg = encrypt(testText.toString().toByteArray(), secretKey, IV)
+            val encryptText = String(encryptMsg, "UTF-8")
+
+        } catch (e: java.lang.Exception) {
+            e.printStackTrace()
+        }
+
+        //
+        try {
+            val decryptMsg = decrypt(encryptMsg, secretKey, IV)
+
+        } catch (e: java.lang.Exception) {
+            e.printStackTrace()
         }
     }
 }
